@@ -1,4 +1,4 @@
-package co.enoobong.designpatterns.weatherobservables.classes
+package co.enoobong.designpatterns.weatherobservables
 
 /**
  * @author Ibanga Enoobong I

@@ -1,4 +1,4 @@
-package co.enoobong.designpatterns.weatherobservables.classes
+package co.enoobong.designpatterns.weatherobservables
 
 import java.util.Observable
 
