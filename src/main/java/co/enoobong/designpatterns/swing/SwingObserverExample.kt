@@ -37,7 +37,7 @@ class SwingObserverExample {
         frame.isVisible = true
     }
 
-    //<editor-fold desc="Unused in favour of lamdas">
+    //<editor-fold defaultstate="collapsed" desc="Unused in favour of lamdas">
     class AngelListener: ActionListener{
         override fun actionPerformed(e: ActionEvent?) {
             e?.equals(ActionEvent.ACTION_PERFORMED)
