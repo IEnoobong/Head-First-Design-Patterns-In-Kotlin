@@ -1,7 +1,7 @@
-package co.enoobong.designpatterns.classes
+package co.enoobong.designpatterns.weather.classes
 
-import co.enoobong.designpatterns.interfaces.Observer
-import co.enoobong.designpatterns.interfaces.Subject
+import co.enoobong.designpatterns.weather.interfaces.Observer
+import co.enoobong.designpatterns.weather.interfaces.Subject
 
 /**
  * @author Ibanga Enoobong I

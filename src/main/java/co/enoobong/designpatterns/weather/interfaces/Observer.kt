@@ -1,4 +1,4 @@
-package co.enoobong.designpatterns.interfaces
+package co.enoobong.designpatterns.weather.interfaces
 
 /**
  * @author Ibanga Enoobong I

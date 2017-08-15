@@ -1,4 +1,4 @@
-package co.enoobong.designpatterns.classes
+package co.enoobong.designpatterns.weather.classes
 
 /**
  * @author Ibanga Enoobong I
@@ -13,6 +13,7 @@ class WeatherStation {
             CurrentConditionsDisplay(weatherData)
             StatisticsDisplay(weatherData)
             ForecastDisplay(weatherData)
+            HeatIndexDisplay(weatherData)
 
             weatherData.setMeasurements(80f, 65f, 30.4f)
             weatherData.setMeasurements(82f, 70f, 29.2f)
