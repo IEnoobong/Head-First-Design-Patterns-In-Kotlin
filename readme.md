@@ -9,7 +9,7 @@ Each chapter/pattern code are in their respective branches
  * clone the project `https://github.com/IEnoobong/Head-First-Design-Patterns-In-Kotlin.git`
  * run `git branch -r` to see the list of branches
  * run `git checkout <branch-name>` to check out your desired branch
-Now you're good to go with some Kotlin code! Enjoy :hugging_face:
+Now you're good to go with some Kotlin code! Enjoy :blush:
 
 # How to contribute
 I'm more than welcome to contributions, If you are willing to contribute to the project feel free to make a fork and submit a pull request.
