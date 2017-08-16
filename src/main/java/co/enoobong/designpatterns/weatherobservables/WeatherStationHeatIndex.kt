@@ -8,13 +8,15 @@ object WeatherStationHeatIndex {
 
     @JvmStatic fun main(args: Array<String>) {
         val weatherData = WeatherData()
-        CurrentConditionsDisplay(weatherData)
-        StatisticsDisplay(weatherData)
-        ForecastDisplay(weatherData)
-        HeatIndexDisplay(weatherData)
 
-        weatherData.setMeasurements(80f, 65f, 30.4f)
-        weatherData.setMeasurements(82f, 70f, 29.2f)
-        weatherData.setMeasurements(78f, 90f, 29.2f)
+        weatherData.apply {
+            CurrentConditionsDisplay(weatherData)
+            StatisticsDisplay(weatherData)
+            ForecastDisplay(weatherData)
+            HeatIndexDisplay(weatherData)
+            setMeasurements(80f, 65f, 30.4f)
+            setMeasurements(82f, 70f, 29.2f)
+            setMeasurements(78f, 90f, 29.2f)
+        }
     }
 }

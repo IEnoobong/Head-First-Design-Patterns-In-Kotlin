@@ -17,7 +17,7 @@ object SwingObserverExample {
     }
 
 
-    fun go() {
+    private fun go() {
         val frame = JFrame()
         val button = JButton("Should I do it?")
 
