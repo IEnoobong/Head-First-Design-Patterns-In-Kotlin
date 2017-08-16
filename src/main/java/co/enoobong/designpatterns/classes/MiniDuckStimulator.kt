@@ -7,15 +7,19 @@ object MiniDuckStimulator {
 
 
     @JvmStatic fun main(args: Array<String>) {
-        val mallard = MallardDuck()
-        mallard.performQuack()
-        mallard.performFly()
+        MallardDuck().apply {
+            display()
+            performFly()
+            performQuack()
+        }
 
-        val model = ModelDuck()
-        model.display()
-        model.performFly()
-        model.flyBehaviour = FlyRocketPowered()
-        model.performFly()
+        ModelDuck().apply {
+            display()
+            performFly()
+            performQuack()
+            flyBehaviour = FlyRocketPowered()
+            performFly()
+        }
     }
 
 }
