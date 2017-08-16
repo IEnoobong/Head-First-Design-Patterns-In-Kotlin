@@ -10,6 +10,12 @@ import java.io.InputStream
  */
 class LowerCaseInputStream(inputStream: InputStream) : FilterInputStream(inputStream) {
 
+    //TODO I know there's a way to achieve this with extensions not just sure how
+    fun InputStream.toLowerChar(): Int{
+        val c = this@toLowerChar.read()
+        return if (c == -1) c else Character.toLowerCase(c.toChar()).toInt()
+    }
+
     @Throws(IOException::class)
     override fun read(): Int {
         val c = super.read()
