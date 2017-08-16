@@ -1,8 +1,5 @@
 package co.enoobong.designpatterns.starBuzzWithSizes
 
-
-
-
 /**
  * @author Ibanga Enoobong I
  * @since 16-Aug-17.
