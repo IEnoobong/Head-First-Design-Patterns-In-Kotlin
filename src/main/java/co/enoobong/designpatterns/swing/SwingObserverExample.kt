@@ -1,8 +1,6 @@
 package co.enoobong.designpatterns.swing
 
 import java.awt.BorderLayout
-import java.awt.event.ActionEvent
-import java.awt.event.ActionListener
 import javax.swing.JButton
 import javax.swing.JFrame
 
@@ -10,16 +8,16 @@ import javax.swing.JFrame
  * @author Ibanga Enoobong I
  * @since 15-Aug-17.
  */
-class SwingObserverExample {
+object SwingObserverExample {
 
-    companion object {
-        @JvmStatic fun main(args: Array<String>){
-            val example = SwingObserverExample()
-            example.go()
-        }
+
+    @JvmStatic fun main(args: Array<String>) {
+        val example = SwingObserverExample
+        example.go()
     }
 
-    fun go(){
+
+    fun go() {
         val frame = JFrame()
         val button = JButton("Should I do it?")
 
@@ -38,18 +36,17 @@ class SwingObserverExample {
     }
 
     //<editor-fold defaultstate="collapsed" desc="Unused in favour of lamdas">
-    class AngelListener: ActionListener{
-        override fun actionPerformed(e: ActionEvent?) {
-            e?.equals(ActionEvent.ACTION_PERFORMED)
-            println("Don't do it, you might regret it!")
-        }
-    }
-
-    class DevilListener: ActionListener{
-        override fun actionPerformed(e: ActionEvent?) {
-            println("Come on, do it!")
-        }
-
-    }
+//    inner class AngelListener: ActionListener{
+//        override fun actionPerformed(e: ActionEvent?) {
+//            println("Don't do it, you might regret it!")
+//        }
+//    }
+//
+//    inner class DevilListener: ActionListener{
+//        override fun actionPerformed(e: ActionEvent?) {
+//            println("Come on, do it!")
+//        }
+//
+//    }
     //</editor-fold>
 }
