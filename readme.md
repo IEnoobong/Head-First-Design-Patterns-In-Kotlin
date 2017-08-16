@@ -6,7 +6,7 @@ As I was reading the book I decided to practice the sample codes in Kotlin to ge
 
 # Getting Started
 Each chapter/pattern code are in their respective branches
- * clone the project `https://github.com/IEnoobong/Head-First-Design-Patterns-In-Kotlin.git`
+ * clone the project `git clone https://github.com/IEnoobong/Head-First-Design-Patterns-In-Kotlin.git`
  * run `git branch -r` to see the list of branches
  * run `git checkout <branch-name>` to check out your desired branch
 Now you're good to go with some Kotlin code! Enjoy :blush:
